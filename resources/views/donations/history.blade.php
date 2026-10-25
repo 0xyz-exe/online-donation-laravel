@@ -1,0 +1,4 @@
+<x-app-layout>
+    <x-slot name="header"><h1 class="text-2xl font-semibold">My donations</h1></x-slot>
+    <section class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8"><div class="space-y-3">@forelse($donations as $donation)<article class="flex flex-wrap items-center justify-between gap-4 rounded-xl bg-white p-5 shadow-sm"><div><h2 class="font-semibold">{{ $donation->campaign->title }}</h2><p class="text-sm text-gray-600">{{ $donation->reference }} · {{ $donation->created_at->format('M j, Y') }} · {{ ucfirst($donation->status) }}</p></div><div class="text-right"><p class="font-semibold"><x-money :minor="$donation->amount_minor" /></p><a class="text-sm text-indigo-700 underline" href="{{ route('donations.receipt', $donation) }}">Receipt / status</a></div></article>@empty<p class="rounded-xl bg-white p-6 text-gray-600">No donations recorded yet.</p>@endforelse</div><div class="mt-6">{{ $donations->links() }}</div></section>
+</x-app-layout>
