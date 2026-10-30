@@ -70,3 +70,12 @@ npm audit --omit=dev
 Before real-world fundraising use, obtain legal/compliance review and define organizer verification, payment settlement, refunds/disputes, data-retention, and donor-support operations. A real payment provider requires explicit authorization and secure credentials, verified webhook signatures, idempotent webhook handling, and reconciliation; none is implemented here.
 
 Keep `.env`, local databases, dependencies, uploads containing personal data, and build artifacts out of Git.
+
+
+## Screenshots
+
+### Dashboard Overview
+![Dashboard](docs/screenshots/01_dashboard.png)
+
+### Login Overview
+![Login](docs/screenshots/02_login.png)
