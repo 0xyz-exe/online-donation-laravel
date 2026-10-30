@@ -2,6 +2,19 @@
 
 Laravel campaign management application for charity drives and manual donation tracking. It is a software demo, not a regulated fundraising platform. No money is collected, transferred, or settled here; no payment provider or webhook integration is included.
 
+---
+
+## Screenshots
+
+| Tampilan | Preview |
+|---|---|
+| **Katalog Kampanye Donasi & Galeri Program**<br>Daftar inisiatif sosial aktif dengan indikator progres donasi terkumpul, target dana, tenggat waktu, dan navigasi donor | ![Katalog Kampanye Donasi](docs/screenshots/01-campaigns-catalog.png) |
+| **Detail Kampanye & Formulir Donasi Interaktif**<br>Deskripsi narasi lengkap, persentase ketercapaian target, formulir pencatatan donasi manual, pengaturan anonimitas, dan daftar donatur publik | ![Detail Kampanye & Formulir Donasi](docs/screenshots/02-campaign-detail-donation.png) |
+| **Bukti Pencatatan Donasi (Receipt)**<br>Lembar tanda terima resmi dengan nomor referensi unik, nominal donasi IDR, metode pembayaran manual, dan status verifikasi admin | ![Bukti Pencatatan Donasi](docs/screenshots/03-donation-receipt.png) |
+| **Panel Moderasi & Antrean Review Admin**<br>Pusat moderasi admin untuk verifikasi status kampanye baru serta konfirmasi transaksi donasi manual offline | ![Panel Moderasi & Antrean Review Admin](docs/screenshots/04-admin-review-queue.png) |
+
+---
+
 ## Features
 
 - User-submitted campaigns with descriptions, goals, deadlines, and validated image uploads; admin review before public listing.
